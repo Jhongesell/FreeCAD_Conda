@@ -9,7 +9,6 @@ source:
     patches:
         - boost.patch
         - boost_py3.patch  # [py != 27]
-        - py3.patch
 
 build:
     number: 4
