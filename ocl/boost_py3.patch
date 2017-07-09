@@ -1,8 +1,8 @@
 diff --git a/src/CMakeLists.txt b/src/CMakeLists.txt
-index 9f1bcab..9ae7065 100644
+index 3459bbd..3c4bbfd 100644
 --- a/src/CMakeLists.txt
 +++ b/src/CMakeLists.txt
-@@ -127,12 +127,12 @@ endif(NOT BUILD_TYPE)
+@@ -157,12 +157,12 @@ endif(NOT BUILD_TYPE)
  include_directories(${CMAKE_CURRENT_BINARY_DIR})
  
  # find BOOST and boost-python
@@ -17,7 +17,7 @@ index 9f1bcab..9ae7065 100644
    message(STATUS "boost_LIBRARY_DIRS is: " ${Boost_LIBRARY_DIRS})
    message(STATUS "Boost_LIBRARIES is: " ${Boost_LIBRARIES})    
  endif()
-@@ -319,8 +319,8 @@ if (BUILD_PY_LIB)
+@@ -344,8 +344,8 @@ if (BUILD_PY_LIB)
      
      )
  

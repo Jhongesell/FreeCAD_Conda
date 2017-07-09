@@ -3,8 +3,8 @@ package:
     version: 0.0.1
 
 source:
-    git_url: https://github.com/aewallin/opencamlib
-    git_tag: master
+    git_url: https://github.com/peterlama/opencamlib
+    git_tag: win-cmake
 
     patches:
         - boost.patch
